@@ -17,7 +17,7 @@ export default function headerPage() {
             <Sparkles className="w-6 h-6 text-white" />
           </div>
 
-          <span className="text-xl font-bold text-foreground">DermaScan</span>
+          <span className="text-xl font-bold text-foreground">DermaLytica</span>
         </motion.div>
       </div>
     </header>
