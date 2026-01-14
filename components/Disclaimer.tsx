@@ -26,7 +26,7 @@ const DisclaimerBanner = () => {
             están avalados científicamente.
             <span className="font-medium text-foreground">
               {" "}
-              Consulte siempre con un dermatólogo
+              Consulte siempre con un especialista
             </span>{" "}
             para cualquier preocupación sobre su piel.
           </p>
