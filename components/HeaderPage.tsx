@@ -10,9 +10,6 @@ export default function headerPage() {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-2"
         >
-          {/* <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-            <Sparkles className="w-10 h-10 text-white bg-teal-700 rounded-lg" />
-          </div> */}
           <div className="w-10 h-10 rounded-xl bg-teal-600 flex items-center justify-center">
             <Sparkles className="w-6 h-6 text-white" />
           </div>

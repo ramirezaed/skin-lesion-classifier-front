@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Dermalytica
 
-## Getting Started
+Dermalytica es una aplicación web educativa full stack que utiliza inteligencia artificial para ayudar a clasificar manchas de la piel y lunares como benignos o malignos.
+El objetivo de la app es aplicar y consolidar conocimientos en desarrollo web y consumo de APIs, con fines educativos.
 
-First, run the development server:
+⚠️ Esta aplicación es solo para fines educativos y no reemplaza la evaluación profesional de un dermatólogo.
 
-```bash
+Funcionalidades
+
+    Subir imágenes de manchas o lunares
+
+    Recibir predicciones sobre si son benignos o malignos utilizando un modelo de IA de Roboflow
+
+    Flujo simple e intuitivo para usuarios, integrando backend y frontend
+
+Tecnologías utilizadas
+
+    Frontend: Next.js, TypeScript
+
+    Backend: Node.js, Express, arquitectura en capas
+
+    IA / ML: Modelo de clasificación de Roboflow
+
+    Otros: FormData para subir imágenes y consumo de API REST
+
+Instalación y ejecución local
+
+Clonar el repositorio:
+
+git clone https://github.com/ramirezaed/skin-lesion-classifier-front.git
+
+Instalar dependencias del backend y frontend:
+
+# Backend
+
+cd backend
+npm install
+
+# Frontend
+
+cd ../frontend
+npm install
+
+Configurar variables de entorno:
+Crea un archivo .env en la raíz del backend con:
+
+API_HOST=tu api
+
+Levantar la aplicación:
+
+# Backend
+
+cd backend
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Frontend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+cd ../frontend
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abrir en el navegador:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+http://localhost:3000
